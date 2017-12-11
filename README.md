@@ -2,7 +2,7 @@
 
 **Stripe Dash** is an app using the [Stripe API](https://stripe.com/docs/api).
 
-Time spent: **5** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
