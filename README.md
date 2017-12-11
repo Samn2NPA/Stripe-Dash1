@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 - [x] User can see the currently active tab.
 - [ ] User can create a charge for a desired amount on the Checkout tab.
 - [ ] User sees an error message when there is a card processing error.
-- [ ] User can see past charges on the Charges tab.
+- [x] User can see past charges on the Charges tab.
 
 The following **optional** features are implemented:
 
