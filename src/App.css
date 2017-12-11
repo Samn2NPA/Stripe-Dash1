@@ -23,25 +23,56 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .holder {
   display: flex;
   flex-direction: row;
 }
+
 .tabs {
-  margin-left: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
 }
 .body {
-  margin-left: 100px;  
+  margin-left: 100px;
 }
 .selected {
   color: red;
 }
 .unselected {
   color: blue;
+}
+
+.chargeHolder {
+  display: flex;
+  flex-direction: row;
+  background-color: lightcyan
+}
+
+.item_center {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.item_left{
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  text-align: left;
+  margin-left: 60px
+}
+
+.griditem {
+  grid-template-columns: 100px 50px 100px 100px;
+  grid-column-gap: 10px;
 }

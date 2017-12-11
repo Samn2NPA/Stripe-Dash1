@@ -6,3 +6,4 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+<script src="https://js.stripe.com/v3/"></script>
