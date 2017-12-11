@@ -26,3 +26,22 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.holder {
+  display: flex;
+  flex-direction: row;
+}
+.tabs {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  margin-left: 100px;  
+}
+.selected {
+  color: red;
+}
+.unselected {
+  color: blue;
+}
